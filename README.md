@@ -4,10 +4,11 @@
 
 ### Requirements
 Libraries:
-PyTorch, numpy, seaborne, matplotlib.pyplot, statsmodels.api sklearn
+PyTorch, numpy, seaborne, matplotlib.pyplot, statsmodels, sklearn
 
 The data folders: DATA and DATA_CN 
 These can be obtained from the Zenodo repository here and should be placed in the top level directory of the package.
+https://zenodo.org/records/14892622
 
 ### Usage
 #### train
@@ -27,3 +28,4 @@ run_inference.py <br>
 This is where the Guided Integrated Gradients is run for samples in which the cancer class prediction was correct
 
 plot_sample.py <br>
+This script makes the sample level plots in the paper
